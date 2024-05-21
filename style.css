@@ -3,6 +3,9 @@
 @media (max-width: 960px) {
   .container {
     width: 700px;
+  ul {
+    flex-wrap: wrap;
+  }
   }
 }
 
@@ -80,6 +83,6 @@ ul li i {
   border-color: rgb(90, 88, 88);
   }
 .small-text {
-  font-size: small;
+  font-size: 1vw;
   color: gray;
 }
