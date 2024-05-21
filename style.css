@@ -10,9 +10,12 @@
 }
 
 body {
-  background-color: rgb(81, 80, 80);
+  background-image: url(/images/bg-water.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: aquamarine;
+  color: rgb(234, 238, 237);
   font-size: 2vw;
   line-height: 1.1;
   text-align: center;
@@ -24,7 +27,7 @@ h1 {
   line-height: 1.1;
 }
 h2 {
-  color: white;
+  color: rgb(5, 31, 90);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 3vw;
   line-height: 1.2px;
@@ -37,7 +40,7 @@ h3 {
   line-height: 10px;
 }
 a {
-  color: aquamarine;
+  color: rgb(8, 8, 8);
   text-decoration: none;
 }
 a:hover {
@@ -48,11 +51,11 @@ a:hover {
   margin: 0 auto;
 }
 .card {
-  background-color: rgb(168, 166, 166);
+  background-color: rgb(168, 166, 166, .5);
   padding: 30px;
   border: 1px solid lightgrey;
-  margin: 20px;
-  box-shadow: 20px 10px 30px;
+  margin: 40px;
+  box-shadow: 10px 10px 30px;
 }
 .img {
   height: 30%;
@@ -79,10 +82,16 @@ ul li i {
   font-size: 4vw;
 }
 .fidget {
-  background: rgb(162, 160, 160);
+  background: rgb(162, 160, 160, .4);
   border-color: rgb(90, 88, 88);
+  height: 40px;
+  width: 12vw;
   }
 .small-text {
   font-size: 1vw;
-  color: gray;
+  color: rgb(241, 241, 241);
+}
+.fidget:hover {
+  color: black;
+  background-color: white;
 }
