@@ -10,7 +10,7 @@
 }
 
 body {
-  background-image: url(/images/bg-water.jpeg);
+  background-image: url(images/bg-water.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
